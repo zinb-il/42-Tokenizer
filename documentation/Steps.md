@@ -1,4 +1,4 @@
-# ** 1.Préparer l'environnement**
+#  1.Préparer l'environnement
 
 ## 1.1 Installer MetaMask et ajouter le testnet BSC
 
@@ -20,13 +20,13 @@ Va sur le faucet officiel de BNB Chain (https://www.bnbchain.org/en/testnet-fauc
 
 Ou bien sur leur bot telegrame @bnbchain_officiel_bot
 
-## **2.Écrire le smart contract**
+# 2.Écrire le smart contract
 
-# 2.1 Ouvrir Remix IDE
+## 2.1 Ouvrir Remix IDE
 Va sur https://remix.ethereum.org. Remix est un IDE en ligne qui te permet d'écrire, compiler et déployer des contrats Solidity sans installation locale.
 Crée un nouveau fichier dans le dossier contracts et nomme-le Token42.sol.
 
-# 2.2 Le code du token
+## 2.2 Le code du token
 ```
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
@@ -41,12 +41,12 @@ contract Token42 is ERC20 {
 ```
 Ce code est écrit en Solidity, un langage de programmation utilisé pour développer des smart contracts sur des blockchains compatibles avec Ethereum, comme BNB Smart Chain.
 
-## **3.Compiler et déployer**
+# 3.Compiler et déployer
 
-# 3.1 Compiler
+## 3.1 Compiler
 Dans Remix, va dans l'onglet Solidity Compiler, sélectionne la version 0.8.0 ou supérieure, et clique sur Compile Token42.sol. Vérifie qu'il n'y a pas d'erreur.
 
-# 3.2 Déployer
+## 3.2 Déployer
 Va dans l'onglet Deploy & Run Transactions :
 
 -Dans Environment, sélectionne Injected Provider - MetaMask. MetaMask te demandera de te connecter.
@@ -55,7 +55,7 @@ Va dans l'onglet Deploy & Run Transactions :
 -Clique sur Deploy et confirme la transaction dans MetaMask.
 -Une fois la transaction confirmée, ton contrat apparaît dans la section Deployed Contracts. Copie son adresse.
 
-# **4.Vérifier le contrat sur BscScan Testnet
+# 4.Vérifier le contrat sur BscScan Testnet
 
 La vérification est obligatoire selon le sujet : "publie-le sur un blockchain explorer". Elle permet à n'importe qui de lire ton code source et de vérifier qu'il correspond au bytecode déployé .
 
