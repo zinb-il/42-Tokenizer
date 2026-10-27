@@ -49,23 +49,24 @@ Dans Remix, va dans l'onglet Solidity Compiler, sélectionne la version 0.8.0 ou
 ## 3.2 Déployer
 Va dans l'onglet Deploy & Run Transactions :
 
--Dans Environment, sélectionne Injected Provider - MetaMask. MetaMask te demandera de te connecter.
--Vérifie que MetaMask est bien sur BNB Smart Chain Testnet (Chain ID 97).
--Dans le champ à côté de Deploy, entre le supply initial en wei (par exemple 1000000000000000000000000 pour 1 million de tokens).
--Clique sur Deploy et confirme la transaction dans MetaMask.
--Une fois la transaction confirmée, ton contrat apparaît dans la section Deployed Contracts. Copie son adresse.
+- Dans Environment, sélectionne Injected Provider MetaMask.
+- MetaMask te demandera de te connecter.
+- Vérifie que MetaMask est bien sur BNB Smart Chain Testnet (Chain ID 97).
+- Dans le champ à côté de Deploy, entre le supply initial en wei (par exemple 1000000000000000000000000 pour 1 million de tokens).
+- Clique sur Deploy et confirme la transaction dans MetaMask.
+- Une fois la transaction confirmée, ton contrat apparaît dans la section Deployed Contracts. Copie son adresse.
 
 # 4.Vérifier le contrat sur BscScan Testnet
 
 La vérification est obligatoire selon le sujet : "publie-le sur un blockchain explorer". Elle permet à n'importe qui de lire ton code source et de vérifier qu'il correspond au bytecode déployé .
 
 ## **Procédure :**
--Va sur https://testnet.bscscan.com et cherche l'adresse de ton contrat.
--Onglet Contract → Verify and Publish.
--Sélectionne :
-    *Compiler Type : Solidity (Single file)
-    *Compiler Version : la même que dans Remix (ex: v0.8.0)
-    *License : MIT
--Colle le code source complet de ton contrat.
--Si le contrat importe OpenZeppelin, tu devras utiliser la vérification Standard-Json-Input ou aplatir le code (flatten) avec un outil comme Hardhat. Une alternative simple : copie l'intégralité du code ERC20 d'OpenZeppelin dans un seul fichier avant de déployer.
--Une fois vérifié, un checkmark vert apparaît sur la page du contrat.
+- Va sur https://testnet.bscscan.com et cherche l'adresse de ton contrat.
+- Onglet Contract → Verify and Publish.
+- Sélectionne :
+    1. Compiler Type : Solidity (Single file)
+    1. Compiler Version : la même que dans Remix (ex: v0.8.0)
+    1. License : MIT
+- Colle le code source complet de ton contrat.
+- Si le contrat importe OpenZeppelin, tu devras utiliser la vérification Standard- Json-Input ou aplatir le code (flatten) avec un outil comme Hardhat. Une alternative simple : copie l'intégralité du code ERC20 d'OpenZeppelin dans un seul fichier avant de déployer.
+- Une fois vérifié, un checkmark vert apparaît sur la page du contrat.
