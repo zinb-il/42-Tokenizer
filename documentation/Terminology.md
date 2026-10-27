@@ -1,13 +1,17 @@
 # **Token**
+
 Un token (ou jeton numérique) est un actif virtuel créé et échanger sur une blockchain déjà existante (comme Ethereum, Solana ou BNB Chain) par le biais d'un contrat intelligent (smart contract)
 
 # **ERC-20**
+
 L'ERC-20 (pour Ethereum Request for Comment 20) est une norme technique utilisée pour créer et gérer des jetons (tokens) fongibles sur la blockchain Ethereum.
 
 # **BEP-20**
+
 le BEP-20 - Binance est une norme technique utilisée pour créer et gérer des jetons fongibles sur la BNB Smart Chain (BSC).
 
 # **MetaMask**
+
 est un **portefeuille de cryptomonnaies (crypto wallet) non custodial**, développé par l'entreprise ConsenSys.
 
 ## Qu'est-ce que cela signifie ?
@@ -16,7 +20,7 @@ est un **portefeuille de cryptomonnaies (crypto wallet) non custodial**, dévelo
 
 Vous êtes le seul propriétaire de vos clés privées et de vos fonds. Personne d'autre, ni ConsenSys ni une banque, ne peut accéder directement à vos fonds.
 
-> **Règle d'or :** *Not your keys, not your coins.*
+> **Règle d'or :** _Not your keys, not your coins._
 
 Si vous perdez votre phrase de récupération secrète, vous risquez de perdre définitivement l'accès à votre portefeuille.
 
@@ -32,4 +36,17 @@ MetaMask est disponible sous deux formes :
 - **Application mobile :** iOS et Android.
 
 # **testnet**
+
 Un testnet (réseau de test) est une copie d'une blockchain utilisée comme environnement d'essai avant le lancement officiel sur le réseau principal (Mainnet). Il permet aux développeurs et aux utilisateurs d'expérimenter en toute sécurité.
+
+# **OpenZeppelin**
+
+pour créer des contrats intelligents (smart contracts) dans l'écosystème crypto. Fondée en 2015, cette entreprise fournit des standards de code ouverts et audités que la quasi-totalité des développeurs Web3 utilisent pour concevoir des jetons (tokens), des protocoles DeFi ou des NFT.
+
+# **Smart contract**
+
+ou contrat intelligent est un programme informatique autonome stocké sur une blockchain (comme Ethereum, Solana ou Polygon) qui s'exécute automatiquement lorsque des conditions prédéfinies sont remplies.
+
+# **multisig**
+
+Un portefeuille multisig (ou multi-signatures) est un portefeuille de cryptomonnaies qui nécessite plusieurs clés privées pour valider et exécuter une transaction, au lieu d'une seule.
